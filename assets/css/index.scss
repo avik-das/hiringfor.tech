@@ -1,0 +1,273 @@
+---
+---
+
+html, body {
+  padding: 0;
+  margin: 0;
+
+  font-family: sans-serif;
+}
+
+p, ul { line-height: 1.4em; }
+
+/** HEADER *******************************************************************/
+
+#header {
+  background: #ffc107;
+
+  #subscribe-form {
+    display: flex;
+    padding: 2em 0;
+    flex-direction: column;
+
+    > * { margin: 12px 0; }
+    > *:first-child { margin-top: 0; }
+    > *:last-child { margin-bottom: 0; }
+  }
+}
+
+/** FORMS & FORM ELEMENTS ****************************************************/
+
+input, select, .subscribe-form-link {
+  border: 0;
+  border-radius: 4px;
+  padding: 16px;
+}
+
+input[type="text"], select { background: #fff; }
+
+select {
+  /* Remove the regular dropdown styling, so we can add our own. */
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  appearance: none;
+
+  /* In particular, add a downward pointing arrowhead. */
+  background-image:
+    url('data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20height%3D%22600%22%20width%3D%22600%22%3E%3Cpath%20d%3D%22M%2058%2C170%20300%2C412%20542%2C170%22%20style%3D%22fill%3Anone%3Bstroke%3A%235513ad%3Bstroke-width%3A80%3Bstroke-linecap%3Around%3Bstroke-linejoin%3Amiter%3B%22%2F%3E%3C%2Fsvg%3E');
+  background-repeat: no-repeat, repeat;
+  background-position: right .7em top 50%, 0 0;
+  background-size: 1em auto, 100%;
+}
+
+input[type="submit"], .subscribe-form-link {
+  /* The "subscribe form link" basically looks like a button, even though it's
+   * a link. This is to provide visual coherence between these two sets of CTAs
+   * (Call To Actions). */
+
+  display: inline-block;
+
+  color: #fff;
+  background: #5513ad;
+
+  font-weight: bold;
+  text-decoration: none;
+
+  cursor: pointer;
+
+  &:hover { background: #6c36b4; }
+}
+
+/** ROLE BOXES ***************************************************************/
+
+.role-box {
+  text-align: center;
+
+  h2 {
+    margin-bottom: 32px;
+    font-size: 1.2em;
+  }
+
+  ul {
+    margin-bottom: 32px;
+
+    text-align: left;
+    list-style: none;
+
+    li {
+      margin: 1em 0;
+
+      &:before {
+        content: "";
+
+        display: block;
+        height: 2em;
+        width: 2em;
+
+        float: left;
+        margin: -0.25em 0.5em 0 -2em;
+
+        background-image: url('data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%22-3%20-1%201600%201600%22%20height%3D%22100%22%20width%3D%22100%22%3E%3Crect%20ry%3D%22160%22%20rx%3D%22160%22%20y%3D%22-1%22%20x%3D%22-3%22%20height%3D%221600%22%20width%3D%221600%22%20style%3D%22opacity%3A1%3Bfill%3A%235513ad%3Bstroke%3Anone%3Bstroke%22%2F%3E%3Cpath%20d%3D%22M%20303%2C799%20619%2C1116%201291%2C444%22%20style%3D%22fill%3Anone%3Bstroke%3A%23ffffff%3Bstroke-width%3A192%3Bstroke-linecap%3Around%3Bstroke-linejoin%3Amiter%3B%22%2F%3E%3C%2Fsvg%3E');
+        background-repeat: no-repeat;
+        background-position: center;
+
+        background-size: 70%;
+        transition: background-size 0.3s;
+        -webkit-transition: background-size 0.3s;
+      }
+
+      &:hover:before { background-size: 80%; }
+    }
+  }
+
+  .subscribe-form-link {
+    padding-left: 4em;
+    padding-right: 4em;
+  }
+}
+
+/** ABOUT ME *****************************************************************/
+
+#about-me {
+  background: #ffc107;
+
+  > img {
+    display: block;
+    border-radius: 50%;
+
+    margin: auto;
+  }
+
+  #me-social-media-links {
+    list-style: none;
+    padding: 0;
+    margin-top: 32px;
+    margin-bottom: 0;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    li {
+      padding: 0 8px;
+
+      a {
+        display: block;
+        height: 24px;
+      }
+    }
+  }
+}
+
+/** FOOTER *******************************************************************/
+
+#footer {
+  margin: 0;
+  padding: 1em 1em 32px;
+
+  text-align: center;
+}
+
+/** LAYOUT *******************************************************************/
+
+/* All the layout is specified in this section, as the layout depends on the
+ * size of the viewport. For larger screens, use a grid layout. For smaller
+ * screens, simply lay out all the elements vertically, which doesn't really
+ * need much layout.
+ *
+ * All of this comes at the end so it can override any base properties set for
+ * the smaller screen.
+ */
+
+@media screen and (max-width: 999px) {
+  /* The page elements are already laid out vertically by default, so there's
+   * not much to do. We only need to add some padding around the sides, and
+   * some vertical spacing in between elements... */
+
+  body > div {
+    padding: 32px 16px;
+    margin: 32px auto;
+  }
+
+  /* ...making sure not to put any space above the colored header. */
+  #header { margin-top: 0; }
+}
+
+@media screen and (min-width: 1000px) {
+  /* The entire body is a giant grid. The reason we need the grid to take up
+   * the entire viewport, with two empty "rails" on the sides, is because the
+   * header needs to span the entire viewport. The remaining elements only use
+   * the middle columns. */
+
+  body {
+    display: grid;
+
+    grid-template-columns: auto repeat(3, 300px) auto;
+    grid-template-rows: auto;
+    grid-template-areas:
+      "header header header header header"
+      ". role-candidate role-interviewer role-hiring-manager ."
+      ". about-me about-me about-me ."
+      ". footer footer footer .";
+
+    grid-column-gap: 32px;
+    grid-row-gap: 64px;
+  }
+
+  #header {
+    /* Inside the header, the elements need to be laid out as if they are only
+     * part of the middle columns of the grid. Furthermore, the elements inside
+     * the header don't exactly line up with the grid either. Because the grid
+     * is a fixed size, this can be achieved using constant widths and a
+     * flexbox. */
+
+    grid-area: header;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    #header-copy {
+      width: 550px;
+      margin-right: 64px;
+      padding: 2em 1em;
+    }
+
+    #subscribe-form {
+      width: 350px;
+
+      /* In the grid layout, the subscribe form is to the side of the header
+       * copy, so move the form down a bit more to line the two up. */
+      padding-top: 3em;
+    }
+  }
+
+  #role-box-candidate { grid-area: role-candidate; }
+  #role-box-interviewer { grid-area: role-interviewer; }
+  #role-box-hiring-manager { grid-area: role-hiring-manager; }
+
+  .role-box ul {
+    /* Allow for up to almost 2 lines of text per bullet point, and three
+     * bullet points, in each role box. This way, all the "subscribe" buttons
+     * below the lists line up next to each other, even if some bullet points
+     * are longer. This is only necessary on larger screens, where the role
+     * boxes are laid out next to each other.
+     *
+     * The assumption is no role box will actually have two full lines for all
+     * of its bullet points. */
+    min-height: 8em;
+  }
+
+  #about-me {
+    /* Similar to the header, the "about me" section has its children laid out
+     * horizontally, without adhering to the grid. */
+
+    grid-area: about-me;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    padding: 16px 64px;
+
+    /* Since the "about me" section doesn't span the entire viewport width on a
+     * larger screen, round out its corners. */
+    border-radius: 8px;
+
+    > img { margin-right: 32px; }
+    > p { margin-left: 32px; }
+  }
+
+  #footer { grid-area: footer }
+}

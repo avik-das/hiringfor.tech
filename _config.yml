@@ -1,0 +1,12 @@
+title: Hiring for Tech
+description: >
+  The weekly newsletter for all things tech hiring.
+
+author:
+  name: Avik Das
+  website: https://avikdas.com
+  linkedin: https://linkedin.com/in/avikdas1990
+  twitter: https://twitter.com/the_avik_das
+
+plugins:
+    - jekyll-feed
