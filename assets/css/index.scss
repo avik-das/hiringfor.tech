@@ -23,32 +23,24 @@ p, ul { line-height: 1.4em; }
     > * { margin: 12px 0; }
     > *:first-child { margin-top: 0; }
     > *:last-child { margin-bottom: 0; }
+
+    #powered-by {
+      font-size: 80%;
+      text-align: center;
+      a { text-decoration: none; }
+    }
   }
 }
 
 /** FORMS & FORM ELEMENTS ****************************************************/
 
-input, select, .subscribe-form-link {
+input, .subscribe-form-link {
   border: 0;
   border-radius: 4px;
   padding: 16px;
 }
 
-input[type="text"], select { background: #fff; }
-
-select {
-  /* Remove the regular dropdown styling, so we can add our own. */
-  -moz-appearance: none;
-  -webkit-appearance: none;
-  appearance: none;
-
-  /* In particular, add a downward pointing arrowhead. */
-  background-image:
-    url('data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20height%3D%22600%22%20width%3D%22600%22%3E%3Cpath%20d%3D%22M%2058%2C170%20300%2C412%20542%2C170%22%20style%3D%22fill%3Anone%3Bstroke%3A%235513ad%3Bstroke-width%3A80%3Bstroke-linecap%3Around%3Bstroke-linejoin%3Amiter%3B%22%2F%3E%3C%2Fsvg%3E');
-  background-repeat: no-repeat, repeat;
-  background-position: right .7em top 50%, 0 0;
-  background-size: 1em auto, 100%;
-}
+input[type="text"] { background: #fff; }
 
 input[type="submit"], .subscribe-form-link {
   /* The "subscribe form link" basically looks like a button, even though it's

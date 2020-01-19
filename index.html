@@ -21,18 +21,15 @@
       <p>In this weekly newsletter, you'll find advice on how to prepare for an interview, technically and otherwise. Each edition is short, so you can read and be on your way.</p>
     </div>
 
-    <!-- TODO - hook this up to an actual mail service -->
-    <form id="subscribe-form">
+    <form
+      id="subscribe-form"
+      action="https://tinyletter.com/hiringfortech"
+      method="post">
       <input type="text" name="email" placeholder="Email address" />
-
-      <select name="role">
-        <option value="unspecified">I am a...</option>
-        <option value="candidate">Candidate</option>
-        <option value="interviewer">Interviewer</option>
-        <option value="hiring-manager">Hiring manager</option>
-      </select>
-
+      <input type="hidden" value="1" name="embed"/>
       <input type="submit" value="Get weekly advice" />
+
+      <p id="powered-by"><a href="https://tinyletter.com" target="_blank">powered by TinyLetter</a></p>
     </form>
   </div>
 
