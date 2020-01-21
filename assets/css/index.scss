@@ -174,6 +174,22 @@ input[type="submit"], .subscribe-form-link {
 
   /* ...making sure not to put any space above the colored header. */
   #header { margin-top: 0; }
+
+  /* Most elements should take up the entire width of the page on smaller
+   * screens, but containers that are copy-heavy or have form inputs in them
+   * should be limited in their width and centered horizontally on the page.
+   * This is not a concern for bigger screens because the grid takes care of
+   * sizing.
+   *
+   * This essentially makes the design better for mid-sized screens, like
+   * tablets.
+   */
+  #subscribe-form,
+  .role-box,
+  #about-me > div {
+    max-width: 500px;
+    margin: auto;
+  }
 }
 
 @media screen and (min-width: 1000px) {
@@ -257,7 +273,16 @@ input[type="submit"], .subscribe-form-link {
      * larger screen, round out its corners. */
     border-radius: 8px;
 
-    > img { margin-right: 32px; }
+    > img {
+      margin-right: 32px;
+
+      /* Ensure the image doesn't shrink. It's not clear if this is a browser
+       * bug on any browser, but on Chrome, the image has a tendency to be
+       * narrowed width-wise when space is allocated to the image and the copy
+       * next to the image. */
+      flex-shrink: 0;
+    }
+
     > p { margin-left: 32px; }
   }
 
