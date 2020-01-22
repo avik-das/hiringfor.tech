@@ -29,7 +29,16 @@ p, ul { line-height: 1.4em; }
       text-align: center;
       a { text-decoration: none; }
     }
+
+    &:target input[type="email"] {
+      animation: form-pulse 0.75s infinite alternate;
+    }
   }
+}
+
+@keyframes form-pulse {
+    0% { box-shadow: none; }
+  100% { box-shadow: 0 0 5px 5px rgba(85, 19, 173, 0.2); }
 }
 
 /** FORMS & FORM ELEMENTS ****************************************************/
@@ -40,7 +49,7 @@ input, .subscribe-form-link {
   padding: 16px;
 }
 
-input[type="text"] { background: #fff; }
+input[type="text"], input[type="email"] { background: #fff; }
 
 input[type="submit"], .subscribe-form-link {
   /* The "subscribe form link" basically looks like a button, even though it's
