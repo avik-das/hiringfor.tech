@@ -1,6 +1,8 @@
 ---
 ---
 
+@import "forms";
+
 html, body {
   padding: 0;
   margin: 0;
@@ -15,58 +17,9 @@ p, ul { line-height: 1.4em; }
 #header {
   background: #ffc107;
 
-  #subscribe-form {
-    display: flex;
-    padding: 2em 0;
-    flex-direction: column;
-
-    > * { margin: 12px 0; }
-    > *:first-child { margin-top: 0; }
-    > *:last-child { margin-bottom: 0; }
-
-    #powered-by {
-      font-size: 80%;
-      text-align: center;
-      a { text-decoration: none; }
-    }
-
-    &:target input[type="email"] {
-      animation: form-pulse 0.75s infinite alternate;
-    }
-  }
-}
-
-@keyframes form-pulse {
-    0% { box-shadow: none; }
-  100% { box-shadow: 0 0 5px 5px rgba(85, 19, 173, 0.2); }
-}
-
-/** FORMS & FORM ELEMENTS ****************************************************/
-
-input, .subscribe-form-link {
-  border: 0;
-  border-radius: 4px;
-  padding: 16px;
-}
-
-input[type="text"], input[type="email"] { background: #fff; }
-
-input[type="submit"], .subscribe-form-link {
-  /* The "subscribe form link" basically looks like a button, even though it's
-   * a link. This is to provide visual coherence between these two sets of CTAs
-   * (Call To Actions). */
-
-  display: inline-block;
-
-  color: #fff;
-  background: #5513ad;
-
-  font-weight: bold;
-  text-decoration: none;
-
-  cursor: pointer;
-
-  &:hover { background: #6c36b4; }
+  /* Because the subscribe form in the header shows up on a colored background,
+   * there's no need for the inputs inside to have a border. */
+  #subscribe-form input { box-shadow: none; }
 }
 
 /** ROLE BOXES ***************************************************************/
@@ -200,7 +153,6 @@ input[type="submit"], .subscribe-form-link {
    * This essentially makes the design better for mid-sized screens, like
    * tablets.
    */
-  #subscribe-form,
   .role-box,
   #about-me > div {
     max-width: 500px;
@@ -255,6 +207,7 @@ input[type="submit"], .subscribe-form-link {
       /* In the grid layout, the subscribe form is to the side of the header
        * copy, so move the form down a bit more to line the two up. */
       padding-top: 3em;
+      margin: 0;
     }
   }
 
