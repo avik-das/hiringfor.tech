@@ -2,12 +2,13 @@
 ---
 
 @import "core";
+@import "nav";
 @import "forms";
 
-body {
+body > * {
   max-width: 50em;
-  margin: auto;
-  padding: 1em;
+  margin: 0 auto;
+  padding: 0 1em;
 }
 
 #cover-img {

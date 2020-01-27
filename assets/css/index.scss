@@ -2,17 +2,16 @@
 ---
 
 @import "core";
+@import "nav";
 @import "forms";
-
-html, body {
-  padding: 0;
-  margin: 0;
-}
 
 /** HEADER *******************************************************************/
 
+#top-nav { margin-bottom: 0; }
+
 #header {
   background: #ffc107;
+  border-top: 2px solid #ffd967;
 
   /* Because the subscribe form in the header shows up on a colored background,
    * there's no need for the inputs inside to have a border. */
@@ -169,6 +168,7 @@ html, body {
     grid-template-columns: auto repeat(3, 300px) auto;
     grid-template-rows: auto;
     grid-template-areas:
+      "nav nav nav nav nav"
       "header header header header header"
       ". role-boxes-header role-boxes-header role-boxes-header ."
       ". role-candidate role-interviewer role-hiring-manager ."
@@ -177,6 +177,11 @@ html, body {
 
     grid-column-gap: 32px;
     grid-row-gap: 64px;
+  }
+
+  #top-nav {
+    grid-area: nav;
+    margin-bottom: -64px;
   }
 
   #header {
