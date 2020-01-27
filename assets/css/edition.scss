@@ -1,0 +1,70 @@
+---
+---
+
+@import "core";
+@import "forms";
+
+body {
+  max-width: 50em;
+  margin: auto;
+  padding: 1em;
+}
+
+#cover-img {
+  /* Normally, without a cover image, the layout sets up some spacing (using
+   * margins) between the title and the body text. When there is a cover image,
+   * the image is placed between the title and the body text.
+   *
+   * Tighten up the spacing between the title and the image, as the spacing
+   * should look different when image is involved.. By applying these styles on
+   * the cover image, the image space essentially "overrides" the default,
+   * text-only spacing. */
+  margin-top: -16px;
+}
+
+h1 { margin-top: 64px; }
+h1, address { text-align: center; }
+address { margin: 8px auto; }
+
+#posts, #content { margin-top: 64px; }
+
+figure {
+  /* On mobile, where the content takes up the entire viewport width, make sure
+   * images takes up the entire width _including_ the padding. */
+  margin-left: -1em;
+  width: calc(100% + 2em);
+
+  margin-bottom: 32px;
+
+  text-align: center;
+
+  img { width: 100%; }
+
+  figcaption {
+    font-style: italic;
+    font-size: .95em;
+  }
+}
+
+#posts ul {
+  list-style: none;
+  padding-left: 0;
+
+  li { margin-bottom: 16px; }
+}
+
+#subscribe {
+  max-width: 500px;
+  margin: 64px auto auto;
+
+  p {
+    font-size: 90%;
+    text-align: center;
+    font-style: italic;
+  }
+
+  #subscribe-form {
+    max-width: 350px;
+    margin-top: -16px;
+  }
+}
