@@ -102,6 +102,27 @@
   }
 }
 
+/** ALTERNATIVE SOURCES ******************************************************/
+
+#alternative-sources ul {
+  /* The alternative sources list has an image in each list item. Make it look
+   * like the image is a bullet point by hiding the usual bullet and adding a
+   * hanging indent to move all but the first line a bit to the right. */
+  list-style: none;
+  padding: 0 2em;
+
+  li {
+    padding: 8px 0 8px 40px;
+    text-indent: -40px;
+
+    > img {
+      vertical-align: middle;
+      display: inline-block;
+      margin-right: 16px;
+    }
+  }
+}
+
 /** FOOTER *******************************************************************/
 
 #footer {
@@ -173,6 +194,7 @@
       ". role-boxes-header role-boxes-header role-boxes-header ."
       ". role-candidate role-interviewer role-hiring-manager ."
       ". about-me about-me about-me ."
+      ". alternative-sources alternative-sources alternative-sources ."
       ". footer footer footer .";
 
     grid-column-gap: 32px;
@@ -266,6 +288,14 @@
     }
 
     > p { margin-left: 32px; }
+  }
+
+  #alternative-sources {
+    grid-area: alternative-sources;
+
+    /* The alternative sources section is a bunch of text laid out vertically,
+     * so give it some room to breath. */
+    padding: 0 10%;
   }
 
   #footer { grid-area: footer }
