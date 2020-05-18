@@ -3,7 +3,7 @@ title: "System design practice: read-after-write consistency"
 layout: edition
 ---
 
-<figure markdown="1">
+<figure id="cover-img" markdown="1">
 ![A person writing on a notepad with a pen](/assets/images/posts/2020-04-13-system-design-practice-read-after-write-consistency.jpg)
 <figcaption markdown="1">It's important to be able to read what you write. Photo by [Adolfo Félix](https://unsplash.com/@adolfofelix?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/s/photos/notes?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
 </figcaption>

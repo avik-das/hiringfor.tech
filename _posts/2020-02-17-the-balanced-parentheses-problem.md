@@ -3,7 +3,7 @@ title: "The balanced parentheses problem"
 layout: edition
 ---
 
-<figure markdown="1">
+<figure id="cover-img" markdown="1">
 ![A person balancing on a balance board, as training before surfing.](/assets/images/posts/2020-02-17-the-balanced-parentheses-problem.jpg)
 <figcaption markdown="1">Photo by [Gustavo Torres](https://unsplash.com/@topspot) on [Unsplash](https://unsplash.com/photos/rBLTWS3WsQ8)
 </figcaption>

@@ -3,7 +3,7 @@ title: "System design practice: designing a payment system"
 layout: edition
 ---
 
-<figure markdown="1">
+<figure id="cover-img" markdown="1">
 ![Five rubber ducks, each with different decorations, lined up behind each other](/assets/images/posts/2020-05-11-system-design-practice-designing-a-payment-system.jpg)
 <figcaption markdown="1">A queue is central to a robust payment system. Image by [Alexas_Fotos](https://pixabay.com/users/Alexas_Fotos-686414/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=3412065) from [Pixabay](https://pixabay.com/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=3412065)
 </figcaption>
