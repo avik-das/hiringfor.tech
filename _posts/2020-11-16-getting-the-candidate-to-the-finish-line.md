@@ -37,7 +37,7 @@ Whatever the situation, a logical stopping point is key to a sense of closure.
 
 Suppose the interview did go well, and now you're talking about some follow-up questions that really challenge the candidate. One example may be the candidate produced a working implementation of their project, and now you're discussing potential optimizations.
 
-It's good to be clear you don't expect an implementation of these optimizations. At the end of the interview, finish up the candidate's thought process in order to communicate they succeeded in answering the follow-up. "I see, you would use the cache in front of this endpoint because it's the highest traffic endpoint. Makes sense!"
+[It's good to be clear you don't expect an implementation of these optimizations.](https://hiringfor.tech/2020/03/02/are-you-asking-candidates-to-read-your-mind.html) At the end of the interview, finish up the candidate's thought process in order to communicate they succeeded in answering the follow-up. "I see, you would use the cache in front of this endpoint because it's the highest traffic endpoint. Makes sense!"
 
 ---
 
