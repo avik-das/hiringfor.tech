@@ -9,6 +9,10 @@ layout: edition
 </figcaption>
 </figure>
 
+<div id="preamble" markdown="1">
+Some logistics before getting to today's topic: I started a new LinkedIn group [_Better Hiring For Tech_](https://www.linkedin.com/groups/13938375/). The group is for any and all discussions on how to make hiring more effective and more equitable in the tech industry. If you're interested in conversations with others who are passionate about improving hiring, come join the group!
+</div>
+
 Software engineers are well-positioned to evaluate a candidate's technical ability, but conducting an interviews is much more than evaluating code. Non-technical skills like the ones I've been writing about, and even [interview-specific technical skills]({% post_url 2021-01-11-technical-skills-every-software-engineer-interviewer-should-have %}), are crucial.
 
 Unfortunately, many software engineers are thrust into interviewing candidates without proper training. Just like engineers need mentorship for their technical skills, new interviewers need hand-holding and feedback. When done right, pairing interviewers of different levels plays a huge role in up-leveling junior interviewers.
