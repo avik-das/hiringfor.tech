@@ -18,33 +18,6 @@
   #subscribe-form input { box-shadow: none; }
 }
 
-/** LINKEDIN GROUP CTA *******************************************************/
-
-#linkedin-group > a {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-
-  border: 2px solid #ddd;
-  border-radius: 5px;
-  box-shadow: 0 0 4px 4px rgba(0, 0, 0, 0.1);
-
-  margin: 0 auto;
-  padding: 0 16px;
-  max-width: 512px;
-  background: #eee;
-
-  text-decoration: none;
-  color: #000;
-
-  &:hover { text-decoration: underline; }
-
-  :first-child img {
-    margin-right: 16px;
-    flex-shrink: 1;
-  }
-}
-
 /** ROLE BOXES ***************************************************************/
 
 #role-boxes-header { text-align: center; }
@@ -218,7 +191,6 @@
     grid-template-areas:
       "nav nav nav nav nav"
       "header header header header header"
-      ". group-link group-link group-link ."
       ". role-boxes-header role-boxes-header role-boxes-header ."
       ". role-candidate role-interviewer role-hiring-manager ."
       ". about-me about-me about-me ."
@@ -262,8 +234,6 @@
       margin: 0;
     }
   }
-
-  #linkedin-group { grid-area: group-link; }
 
   #role-boxes-header {
     grid-area: role-boxes-header;
