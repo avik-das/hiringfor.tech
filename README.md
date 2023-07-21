@@ -16,8 +16,8 @@ cd hiringfor.tech
 
 # Set up your rbenv if you wish
 #
-#   rbenv install 2.5.1
-#   rbenv local 2.5.1
+#   rbenv install 3.2.1
+#   rbenv local 3.2.1
 #   echo '.ruby-version' >> .git/info/exclude
 
 # Or otherwise sure you're using a suitable new version of Ruby
