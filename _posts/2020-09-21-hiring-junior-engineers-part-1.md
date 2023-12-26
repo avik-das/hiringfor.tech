@@ -1,6 +1,7 @@
 ---
 title: "Hiring junior engineers - Part 1"
 layout: edition
+tags: employers
 ---
 
 <figure id="cover-img" markdown="1">

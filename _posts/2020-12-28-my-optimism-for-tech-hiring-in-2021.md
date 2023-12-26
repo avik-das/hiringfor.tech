@@ -1,6 +1,7 @@
 ---
 title: "My optimism for tech hiring in 2021"
 layout: edition
+tags: employers interviewers
 ---
 
 <figure id="cover-img" markdown="1">

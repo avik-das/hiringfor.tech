@@ -1,6 +1,7 @@
 ---
 title: "How tech interviews fail those with hidden disabilities"
 layout: edition
+tags: interviewers
 ---
 
 <figure id="cover-img" markdown="1">

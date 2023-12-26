@@ -1,6 +1,7 @@
 ---
 title: "The prisoner's dilemma of training your employees"
 layout: edition
+tags: employers
 ---
 
 <figure id="cover-img" markdown="1">

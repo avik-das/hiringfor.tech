@@ -1,6 +1,7 @@
 ---
 title: "Letting the little things slide, remote interview edition"
 layout: edition
+tags: interviewers
 ---
 
 <figure id="cover-img" markdown="1">

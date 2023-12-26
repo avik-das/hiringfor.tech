@@ -1,6 +1,7 @@
 ---
 title: "My resources for dynamic programming"
 layout: edition
+tags: candidates
 ---
 
 <figure id="cover-img" markdown="1">

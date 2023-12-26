@@ -1,6 +1,7 @@
 ---
 title: "Job offers and total compensation"
 layout: edition
+tags: candidates
 ---
 
 <figure id="cover-img" markdown="1">

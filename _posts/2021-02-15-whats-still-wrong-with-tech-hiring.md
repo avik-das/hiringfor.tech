@@ -1,6 +1,7 @@
 ---
 title: "What's still wrong with tech hiring"
 layout: edition
+tags: employers interviewers
 ---
 
 <figure id="cover-img" markdown="1">

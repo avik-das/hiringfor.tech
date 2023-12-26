@@ -1,6 +1,7 @@
 ---
 title: "How fair is the take-home assignment?"
 layout: edition
+tags: interviewers
 ---
 
 <figure id="cover-img" markdown="1">

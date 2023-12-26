@@ -1,6 +1,7 @@
 ---
 title: "Reducing interview stress with independent work"
 layout: edition
+tags: interviewers
 ---
 
 <figure id="cover-img" markdown="1">

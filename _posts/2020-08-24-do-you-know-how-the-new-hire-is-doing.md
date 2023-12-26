@@ -1,6 +1,7 @@
 ---
 title: "Do you know how the new hire is doing?"
 layout: edition
+tags: employers interviewers
 ---
 
 <figure id="cover-img" markdown="1">

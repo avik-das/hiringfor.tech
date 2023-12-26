@@ -1,6 +1,7 @@
 ---
 title: "Acing the system design interview"
 layout: edition
+tags: candidates
 ---
 
 <figure id="cover-img" markdown="1">

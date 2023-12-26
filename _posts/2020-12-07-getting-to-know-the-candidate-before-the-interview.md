@@ -1,6 +1,7 @@
 ---
 title: "Getting to know the candidate before the interview"
 layout: edition
+tags: interviewers
 ---
 
 <figure id="cover-img" markdown="1">

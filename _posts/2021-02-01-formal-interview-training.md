@@ -1,6 +1,7 @@
 ---
 title: "Formal interview training"
 layout: edition
+tags: employers interviewers
 ---
 
 <figure id="cover-img" markdown="1">

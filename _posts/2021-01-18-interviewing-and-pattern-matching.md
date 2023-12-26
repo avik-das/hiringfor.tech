@@ -1,6 +1,7 @@
 ---
 title: "Interviewing and pattern matching"
 layout: edition
+tags: candidates
 ---
 
 <figure id="cover-img" markdown="1">

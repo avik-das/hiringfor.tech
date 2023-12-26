@@ -1,6 +1,7 @@
 ---
 title: "Having something to show"
 layout: edition
+tags: candidates
 ---
 
 <figure id="cover-img" markdown="1">

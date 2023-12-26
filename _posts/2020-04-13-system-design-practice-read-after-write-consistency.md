@@ -1,6 +1,7 @@
 ---
 title: "System design practice: read-after-write consistency"
 layout: edition
+tags: candidates
 ---
 
 <figure id="cover-img" markdown="1">

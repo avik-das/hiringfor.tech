@@ -1,6 +1,7 @@
 ---
 title: "Are you asking candidates to read your mind?"
 layout: edition
+tags: interviewers candidates
 ---
 
 <figure id="cover-img" markdown="1">

@@ -1,6 +1,7 @@
 ---
 title: "Open book tests"
 layout: edition
+tags: interviewers
 ---
 
 <figure id="cover-img" markdown="1">

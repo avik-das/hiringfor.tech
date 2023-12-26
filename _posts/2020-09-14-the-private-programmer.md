@@ -1,6 +1,7 @@
 ---
 title: "The private programmer"
 layout: edition
+tags: interviewers
 ---
 
 <figure id="cover-img" markdown="1">

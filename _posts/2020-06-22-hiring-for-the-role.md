@@ -1,6 +1,7 @@
 ---
 title: "Hiring for the role"
 layout: edition
+tags: interviewers
 ---
 
 <figure id="cover-img" markdown="1">

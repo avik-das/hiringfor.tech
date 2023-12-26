@@ -1,6 +1,7 @@
 ---
 title: "Executing code virtually"
 layout: edition
+tags: candidates
 ---
 
 <figure id="cover-img" markdown="1">

@@ -1,6 +1,7 @@
 ---
 title: "Placing candidates on the tech ladder"
 layout: edition
+tags: employers interviewers
 ---
 
 <figure id="cover-img" markdown="1">

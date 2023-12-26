@@ -1,6 +1,7 @@
 ---
 title: "System design practice: designing a payment system"
 layout: edition
+tags: candidates
 ---
 
 <figure id="cover-img" markdown="1">

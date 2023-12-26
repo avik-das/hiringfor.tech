@@ -1,6 +1,7 @@
 ---
 title: "If you want diversity, you need targeted hiring"
 layout: edition
+tags: employers
 ---
 
 <figure id="cover-img" markdown="1">

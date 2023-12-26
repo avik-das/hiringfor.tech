@@ -1,6 +1,7 @@
 ---
 title: "Technical skills every software engineer interviewer should have"
 layout: edition
+tags: interviewers
 ---
 
 <figure id="cover-img" markdown="1">

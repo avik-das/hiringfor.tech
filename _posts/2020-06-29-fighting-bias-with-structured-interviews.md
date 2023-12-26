@@ -1,6 +1,7 @@
 ---
 title: "Fighting bias with structured interviews"
 layout: edition
+tags: interviewers
 ---
 
 <figure id="cover-img" markdown="1">

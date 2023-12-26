@@ -1,6 +1,7 @@
 ---
 title: "The power imbalance in hiring"
 layout: edition
+tags: employers interviewers
 ---
 
 <figure id="cover-img" markdown="1">

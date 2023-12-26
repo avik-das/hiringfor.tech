@@ -1,6 +1,7 @@
 ---
 title: "Warming up in a tech interview"
 layout: edition
+tags: interviewers
 ---
 
 <figure id="cover-img" markdown="1">

@@ -1,6 +1,7 @@
 ---
 title: "The balanced parentheses problem"
 layout: edition
+tags: candidates
 ---
 
 <figure id="cover-img" markdown="1">

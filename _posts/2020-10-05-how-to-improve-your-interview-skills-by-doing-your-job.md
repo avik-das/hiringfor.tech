@@ -1,6 +1,7 @@
 ---
 title: "How to improve your interview skills by doing your job"
 layout: edition
+tags: candidates
 ---
 
 <figure id="cover-img" markdown="1">

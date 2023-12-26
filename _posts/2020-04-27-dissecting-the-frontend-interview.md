@@ -1,6 +1,7 @@
 ---
 title: "Dissecting the front-end interview"
 layout: edition
+tags: candidates
 ---
 
 <figure id="cover-img" markdown="1">

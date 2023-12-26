@@ -1,6 +1,7 @@
 ---
 title: "Prepare your story"
 layout: edition
+tags: interviewers candidates
 ---
 
 <figure id="cover-img" markdown="1">

@@ -1,6 +1,7 @@
 ---
 title: "Looking for strengths is not lowering the bar"
 layout: edition
+tags: interviewers
 ---
 
 <figure id="cover-img" markdown="1">

@@ -1,6 +1,7 @@
 ---
 title: "One size does not fit all"
 layout: edition
+tags: employers interviewers
 ---
 
 <figure id="cover-img" markdown="1">

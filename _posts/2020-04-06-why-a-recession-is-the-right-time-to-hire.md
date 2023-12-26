@@ -1,6 +1,7 @@
 ---
 title: "Why a recession is the right time to hire"
 layout: edition
+tags: employers
 ---
 
 <figure id="cover-img" markdown="1">

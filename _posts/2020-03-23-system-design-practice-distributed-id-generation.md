@@ -1,6 +1,7 @@
 ---
 title: "System design practice: distributed ID generation"
 layout: edition
+tags: candidates
 ---
 
 <figure id="cover-img" markdown="1">

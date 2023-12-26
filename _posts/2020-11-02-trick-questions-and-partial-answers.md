@@ -1,6 +1,7 @@
 ---
 title: "Trick questions and partial answers"
 layout: edition
+tags: interviewers
 ---
 
 <figure id="cover-img" markdown="1">

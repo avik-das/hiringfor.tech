@@ -1,6 +1,7 @@
 ---
 title: "Looking back at Hiring For Tech in 2020"
 layout: edition
+tags: employers interviewers
 ---
 
 <figure id="cover-img" markdown="1">

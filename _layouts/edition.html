@@ -20,6 +20,14 @@
 
   <section id="content">{{ content }}</section>
 
+  {% if page.tags != empty %}
+  <p id="tag-list">
+    {% for tag in page.tags %}
+    <span class="tag" data-tag="{{ tag }}">{{ tag }}</span>
+    {% endfor %}
+  </p>
+  {% endif %}
+
   <section id="subscribe">
     <p>This post was sent out on the {{ page.date | date: "%B %-d, %Y" }} edition of the Hiring For Tech newsletter. Subscribe to get future editions sent to you by email, once a week.</p>
 

@@ -1,6 +1,7 @@
 ---
 title: "Getting the candidate to the finish line"
 layout: edition
+tags: interviewers
 ---
 
 <figure id="cover-img" markdown="1">

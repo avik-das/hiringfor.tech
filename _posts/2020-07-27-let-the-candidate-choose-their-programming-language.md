@@ -1,6 +1,7 @@
 ---
 title: "Let the candidate choose their programming language"
 layout: edition
+tags: interviewers
 ---
 
 <figure id="cover-img" markdown="1">

@@ -1,6 +1,7 @@
 ---
 title: "We're in it together"
 layout: edition
+tags: interviewers
 ---
 
 <figure id="cover-img" markdown="1">

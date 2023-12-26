@@ -1,6 +1,7 @@
 ---
 title: "A remote revolution? Or a backlash?"
 layout: edition
+tags: candidates
 ---
 
 <figure id="cover-img" markdown="1">

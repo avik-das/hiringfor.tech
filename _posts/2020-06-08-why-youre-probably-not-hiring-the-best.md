@@ -1,6 +1,7 @@
 ---
 title: "Why you're probably not hiring the best"
 layout: edition
+tags: employers
 ---
 
 <figure id="cover-img" markdown="1">
