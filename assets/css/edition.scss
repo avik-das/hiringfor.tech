@@ -3,9 +3,10 @@
 
 @import "core";
 @import "nav";
-@import "forms";
 
 $body-padding: 1em;
+
+body { padding-bottom: 96px; }
 
 body > * {
   max-width: 50em;
@@ -153,19 +154,3 @@ table {
 }
 
 #tag-list { margin-top: 32px; }
-
-#subscribe {
-  max-width: 500px;
-  margin: 64px auto auto;
-
-  p {
-    font-size: 90%;
-    text-align: center;
-    font-style: italic;
-  }
-
-  #subscribe-form {
-    max-width: 350px;
-    margin-top: -16px;
-  }
-}
