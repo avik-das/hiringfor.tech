@@ -3,7 +3,6 @@
 
 @import "core";
 @import "nav";
-@import "forms";
 
 /** HEADER *******************************************************************/
 
@@ -12,10 +11,6 @@
 #header {
   background: #ffc107;
   border-top: 2px solid #ffd967;
-
-  /* Because the subscribe form in the header shows up on a colored background,
-   * there's no need for the inputs inside to have a border. */
-  #subscribe-form input { box-shadow: none; }
 }
 
 /** ROLE BOXES ***************************************************************/
@@ -60,11 +55,6 @@
 
       &:hover:before { background-size: 80%; }
     }
-  }
-
-  .subscribe-form-link {
-    padding-left: 4em;
-    padding-right: 4em;
   }
 }
 
@@ -223,15 +213,6 @@
       width: 550px;
       margin-right: 64px;
       padding: 2em 1em;
-    }
-
-    #subscribe-form {
-      width: 350px;
-
-      /* In the grid layout, the subscribe form is to the side of the header
-       * copy, so move the form down a bit more to line the two up. */
-      padding-top: 3em;
-      margin: 0;
     }
   }
 
