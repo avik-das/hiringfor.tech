@@ -9,12 +9,6 @@ layout: edition
 </figcaption>
 </figure>
 
-<div id="preamble" markdown="1">
-A reminder to check out the new [_Better Hiring For Tech_](https://www.linkedin.com/groups/13938375/) LinkedIn group. Having written about hiring for a year, I'd like to invite the tech community to share their experiences and opinions.
-
-Please take a moment to vote on [this poll about formal interview training](https://www.linkedin.com/feed/update/urn:li:activity:6761866985736433664/). One more week to answer!
-</div>
-
 I've talked about what seem to be two conflicting topics: [standardizing your interviews]({% post_url 2020-06-29-fighting-bias-with-structured-interviews %}) and [accommodating different candidates](http://localhost:4001/2020/12/07/getting-to-know-the-candidate-before-the-interview.html). So how can you be accommodating without introducing bias?
 
 It turns out, you can give different candidates different questions, or even a different interview process, based on:

@@ -25,7 +25,7 @@ I'm only one person, so I haven't yet changed the world of tech hiring yet. Plus
 
 If this feels like I'm repeating myself, it's because I am. Over the last year, I've covered exactly how we need to improve hiring in tech, but we're not making nearly enough progress. Now, there are two things that need to happen:
 
-- People need to speak up. This means not making excuses for the terrible practices companies use, instead holding these employers and interviewers accountable. Talk about what companies are doing wrong, and what they should be doing instead. I'm trying to cultivate [a community of people who want to make hiring better](https://www.linkedin.com/groups/13938375/), but that only works if you speak up.
+- People need to speak up. This means not making excuses for the terrible practices companies use, instead holding these employers and interviewers accountable. Talk about what companies are doing wrong, and what they should be doing instead.
 
 - Having written down many of my thoughts, I'm going to focus on compiling this information in an actionable form and push for change. This means less writing on this newsletter. Expect to see new articles less frequently.
 

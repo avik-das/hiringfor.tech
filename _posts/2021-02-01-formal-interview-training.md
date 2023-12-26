@@ -9,10 +9,6 @@ layout: edition
 </figcaption>
 </figure>
 
-<div id="preamble" markdown="1">
-A reminder to check out the new [_Better Hiring For Tech_](https://www.linkedin.com/groups/13938375/) LinkedIn group. I posted [a poll](https://www.linkedin.com/feed/update/urn:li:activity:6761866985736433664/) to see what kinds of experiences interviewers have with formal interview training.
-</div>
-
 A running theme in this newsletter is the idea that good software engineers don't automatically make good interviewers. This is in contrast to the idea that _being interviewed_ should not be a separate skill! As a result, **formal interview training is a must for interviewers**.
 
 The problem is the required skills are not always taught to engineers, nor given their due respect. For example, interviewing skills are typically not taught in college, or in many cases, not even at the workplace. Some companies may provide training around avoiding bias, which is great, but it's only one part of the puzzle. My hunch is companies provide this training for compliance reasons.
