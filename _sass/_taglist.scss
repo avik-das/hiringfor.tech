@@ -1,0 +1,11 @@
+.tag {
+  padding: 4px;
+  border-radius: 4px;
+  border: 1px solid #0002;
+
+  font-size: 60%;
+
+  &[data-tag="employers"]    { background: #ffd9d9; }
+  &[data-tag="interviewers"] { background: #ddf9e2; }
+  &[data-tag="candidates"]   { background: #e1daff; }
+}
