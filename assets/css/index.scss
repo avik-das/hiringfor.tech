@@ -2,15 +2,42 @@
 ---
 
 @import "core";
-@import "nav";
+@import "taglist";
 
 /** HEADER *******************************************************************/
 
-#top-nav { margin-bottom: 0; }
-
 #header {
   background: #ffc107;
-  border-top: 2px solid #ffd967;
+
+  img.logo {
+    display: block;
+    margin: auto;
+    border-radius: 16px;
+  }
+
+  h1 {
+    text-align: center;
+    margin: 32px auto;
+  }
+
+  .cta {
+    display: block;
+    width: fit-content;
+
+    margin: 32px auto auto;
+    padding: 16px;
+
+    color: #fff;
+    background: #5513ad;
+    border-radius: 4px;
+
+    font-weight: bold;
+    text-decoration: none;
+
+    cursor: pointer;
+
+    &:hover { background: #6c36b4; }
+  }
 }
 
 /** ROLE BOXES ***************************************************************/
@@ -113,6 +140,27 @@
   }
 }
 
+/** POST LISTING *************************************************************/
+
+#posts {
+  ul {
+    list-style: none;
+    padding-left: 0;
+    margin-top: 64px;
+
+    &:first-of-type { margin-top: 0; }
+
+    li {
+      margin-bottom: 16px;
+
+      .date {
+        font-variant: small-caps;
+        font-size: 80%;
+      }
+    }
+  }
+}
+
 /** FOOTER *******************************************************************/
 
 #footer {
@@ -179,21 +227,16 @@
     grid-template-columns: auto repeat(3, 300px) auto;
     grid-template-rows: auto;
     grid-template-areas:
-      "nav nav nav nav nav"
       "header header header header header"
       ". role-boxes-header role-boxes-header role-boxes-header ."
       ". role-candidate role-interviewer role-hiring-manager ."
       ". about-me about-me about-me ."
+      ". posts posts posts ."
       ". alternative-sources alternative-sources alternative-sources ."
       ". footer footer footer .";
 
     grid-column-gap: 32px;
     grid-row-gap: 64px;
-  }
-
-  #top-nav {
-    grid-area: nav;
-    margin-bottom: -64px;
   }
 
   #header {
@@ -205,14 +248,10 @@
 
     grid-area: header;
 
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-
-    #header-copy {
-      width: 550px;
-      margin-right: 64px;
-      padding: 2em 1em;
+    > #header-copy {
+      width: 700px;
+      padding: 16px 64px;
+      margin: auto;
     }
   }
 
@@ -279,5 +318,12 @@
     padding: 0 10%;
   }
 
-  #footer { grid-area: footer }
+  #posts {
+    grid-area: posts;
+
+    width: 700px;
+    margin: auto;
+  }
+
+  #footer { grid-area: footer; }
 }

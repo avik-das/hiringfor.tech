@@ -11,13 +11,15 @@
   <link rel="stylesheet" href="assets/css/index.css" />
 </head>
 <body>
-  {% include nav.html %}
-
   <div id="header">
     <div id="header-copy">
-      <h1>The weekly newsletter for all things tech hiring</h1>
+      <img class="logo" src="assets/images/logo.png" alt="Logo: a chat bubble over some code" width="200" height="200" />
 
-      <p>Tech interviews are hard, whether you're hiring or looking to be hired. Poor interview practices mean the right candidates are not being matched with the right companies. In this weekly newsletter, I'll send you advice on how to prepare for an interview, as a candidate or as an interviewer.</p>
+      <h1>Hiring For Tech</h1>
+
+      <p>Over the last 10+ years working in tech, I found myself in a hiring system with great intentions, but one that sorely misses the mark. In 2020, I set out to write down all my thoughts about how we as an industry can hire the best candidates, without missing out on capable individuals because of bias, personal circumstances, or simply because great developers aren't always great at interviewing. Even though I found I had gotten all my thoughts down in about a year, I've found myself frequently referring back to this library of all things tech hiring.</p>
+
+      <p><a class="cta" href="#posts">View all editions</a></p>
     </div>
   </div>
 
@@ -63,7 +65,7 @@
     <img src="assets/images/headshot.jpg" alt="Headshot" width="200" height="200" />
 
     <div>
-      <p>I'm Avik Das, a software engineer who's been on both sides of the hiring table. With my 10+ years of industry experience, at both small and large companies, as a member of a large organization and a founder of a small startup, I know what it takes to get hired and how to hire.</p>
+      <p>I'm Avik Das, a software engineer who's been on both sides of the hiring table. With experience at both small and large companies, as a member of a large organization and a founder of a small startup, I know what it takes to get hired and how to hire.</p>
 
       <ul id="me-social-media-links">
         <li><a href="{{ site.author.website }}"><img src="assets/images/logo-website.png" alt="Website" width="24" height="24" /></a></li>
@@ -72,7 +74,32 @@
     </div>
   </div>
 
+  <div id="posts">
+    <h2>All editions</h2>
+
+    {% assign posts_by_month =
+        site.posts | group_by_exp:"post", "post.date | date: '%B %Y'" %}
+
+    {% for month in posts_by_month %}
+    <ul>
+      {% for post in month.items %}
+      <li>
+        <a href="{{ post.url }}">{{ post.title }}</a> &mdash;
+        <span class="date">{{ post.date | date: "%b %-d, %Y" }}</span>
+        {% if post.tags != empty %}
+          {% for tag in post.tags %}
+          <span class="tag" data-tag="{{ tag }}">{{ tag }}</span>
+          {% endfor %}
+        {% endif %}
+      </li>
+      {% endfor %}
+    </ul>
+    {% endfor %}
+  </div>
+
   <div id="alternative-sources">
+    <p>Don't want to read the editions here, or you want to comment on an edition? Try these other sources:</p>
+
     <ul>
       <li><img src="assets/images/logo-linkedin.png" alt="" width="24" height="24" />Subscribe to the <a href="https://www.linkedin.com/newsletters/hiring-for-tech-6629823429996617728/">newsletter on Linkedin</a>, and you can comment on and share editions with your network.</li>
       <li><img src="assets/images/logo-rss.png" alt="" width="24" height="24" />Subscribe to <a href="/feed.xml">the official RSS feed</a>. You'll have to reach me through other means.</li>
@@ -80,7 +107,5 @@
   </div>
 
   <p id="footer">&copy; Avik Das, 2020. Illustrations by <a href="https://undraw.co/">Undraw</a></p>
-
-  {% include analytics.html %}
 </body>
 </html>
