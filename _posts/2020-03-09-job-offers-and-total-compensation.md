@@ -9,7 +9,7 @@ layout: edition
 </figcaption>
 </figure>
 
-The term **Total Compensation** gets thrown around in the tech industry quite, but it took me a while to internalize what it really means. [I wrote an article diving into what total compensation is](https://blog.levels.fyi/what-is-total-compensation.html), which I highly recommend you read. The article is published on the [Levels.fyi](https://www.levels.fyi/) blog because they collect and share data on compensation, making it easier to know how much you _should_ be making.
+The term **Total Compensation** gets thrown around in the tech industry quite, but it took me a while to internalize what it really means. [I wrote an article diving into what total compensation is](https://www.levels.fyi/blog/what-is-total-compensation.html), which I highly recommend you read. The article is published on the [Levels.fyi](https://www.levels.fyi/) blog because they collect and share data on compensation, making it easier to know how much you _should_ be making.
 
 This week's edition of Hiring For Tech covers how to evaluate a job offer based on total compensation. First, a quick refresher if you haven't read my article above (you should):
 
