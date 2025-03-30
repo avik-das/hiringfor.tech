@@ -49,3 +49,15 @@ bundle exec jekyll build
 ```
 
 This will build the website into `_site`, just like `jekyll serve`, but will do so only once.
+
+Quickly tagging posts
+---------------------
+
+Because I decided to add tags to all the posts well after writing many posts, I needed a way to quicky add and edit the tags for the posts one by one. Instead of opening up each file in a text editor, I created the `tagger` script to manage tags. Run the script and use the hotkeys presented in the simplistic UI:
+
+```sh
+# No need for `bundle exec` as the script has no non-stdlib dependencies
+./tagger.rb
+```
+
+The tool will not only allow you to inspect and update the tags for a post, but when updating the tags, the tags will be added to the post in a canonical order.
