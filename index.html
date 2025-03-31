@@ -77,6 +77,8 @@
   <div id="posts">
     <h2>All editions</h2>
 
+    <div id="tag-filter" style="display: none;"><!-- Leave placeholder for Javascript --></div>
+
     {% assign posts_by_month =
         site.posts | group_by_exp:"post", "post.date | date: '%B %Y'" %}
 
@@ -107,5 +109,13 @@
   </div>
 
   <p id="footer">&copy; Avik Das, 2020. Illustrations by <a href="https://undraw.co/">Undraw</a></p>
+
+  <script language="javascript" src="/assets/js/tag-filter.js"></script>
+  <script language="javascript">
+    document.addEventListener('DOMContentLoaded', () => {
+      const ALL_TAGS = [{% for tag in site.tags %}"{{ tag | first }}"{% unless forloop.last %}, {% endunless %}{% endfor %}];
+      setupTagFilter(ALL_TAGS);
+    });
+  </script>
 </body>
 </html>
